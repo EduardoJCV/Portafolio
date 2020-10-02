@@ -12,9 +12,7 @@ export class FooterComponent {
   contacts;
 
   constructor( public footerService:FooterService ) { 
-    this.footerService.getContacts().subscribe( (res:any)=>{
-      this.contacts = res;
-    });
+    this.contacts = this.footerService.getContacts();
   }
 
 

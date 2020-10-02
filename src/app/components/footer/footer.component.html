@@ -1,5 +1,5 @@
 <section class="contenedor1 services">
-    <img src="./../assets/social.svg" alt="">
+    <img src="./assets/social.svg" alt="">
     <div class="box-contacts" id="social-list" *ngIf="contacts">
         <h4 *ngFor="let contact of contacts" >
             <a *ngIf="contact.url != ''" href="{{ contact.url }}" target="_blank">
