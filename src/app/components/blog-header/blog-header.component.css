@@ -1,0 +1,95 @@
+.active{
+    color:white !important;
+}
+
+.navig {
+}
+
+.navig ul {
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    /* position: relative; */
+    text-align: center;
+}
+    
+.navig ul li {
+    display:inline-block;
+    background-color: #1a2035;
+    }
+
+.navig a {
+    
+    display:block;
+    /* padding:0 20px;  */
+    color:#5D6678;
+    font-size:16px;
+    line-height: 60px;
+    text-decoration:none;
+}
+
+
+/* Hide Dropdowns by Default */
+.navig ul ul {
+    margin-left: -7rem;
+    z-index: 88;
+    display: none;
+    position: absolute; 
+    top: 60px; /* the height of the main .navig */
+}
+    
+/* Display Dropdowns on Hover */
+.navig ul li:hover > ul {
+    display:inherit;
+    /* position: relative; */
+    z-index: 99999999;
+}
+    
+/* Fisrt Tier Dropdown */
+.navig ul ul li {
+    width:170px;
+    float:none;
+    display:list-item;
+    /* position: relative; */
+}
+
+.navig ul ul li a:hover{
+    color:white;
+}
+
+/* Second, Third and more Tiers */
+.navig ul ul ul li {
+    /* position: relative; */
+    top:-60px; 
+    left:50px;
+}
+
+    
+i {
+    border: solid #5D6678;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4px;
+    margin: -7px 0 0px 7px;
+    vertical-align: middle;
+}
+
+.right {
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+}
+
+.left {
+    transform: rotate(35deg);
+    -webkit-transform: rotate(35deg);
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}

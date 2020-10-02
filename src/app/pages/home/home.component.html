@@ -1,0 +1,58 @@
+
+<app-header></app-header>
+
+
+
+<div class="contenedor" id="inicio">
+    <section class="contenido-header">
+        <section class="textos-header">
+            <h1 >Eduardo JCV </h1>
+            <p class="escribir">Desarrollador WEB - Junior    <span>&#160;</span></p>
+            <a [routerLink]="['/contactar']">Contactar</a>
+        </section>
+        <img src="./../assets/coding.svg" alt="">
+    </section>
+</div>
+
+<section class="about-us" id="skills">
+    <div class="contenedor1">
+        <h2 class="titulo">Habilidades</h2>
+
+        <app-skillsList></app-skillsList>
+        
+    </div>
+</section>
+
+
+<section class="questions contenedor" id="sobre-mi" style="display: flex;" *ngIf="about">
+    <section class="textos-questions" >
+        <h1>Sobre Mi</h1>
+        <p id="sobre-mi-content"> {{ about.description }} </p>
+    </section>
+    <img id="sobre-mi-img" style="filter: grayscale(100%);" [src]="about.img" alt="" data-aos="zoom-out-up" data-aos-duration="2000">
+</section>
+
+
+<section class="results" id="proyectos">
+    <div class="contenedor1 conten-results">
+        <app-project-card tipo="limit" [tipo]="limit"></app-project-card>
+        
+        <section class="results-text">
+            <h4>Proyectos</h4>
+            <p>Algunos de mis proyectos personales mas recientes</p>
+        </section>
+    </div>
+</section>
+
+
+<section class="about-us" id="blog">
+    <div class="contenedor1">
+        <h2 class="titulo">Blog</h2>
+
+        <app-article-card limit="limit2" [limit]="limit2"></app-article-card>
+        
+    </div>
+</section>
+
+
+<app-footer></app-footer>

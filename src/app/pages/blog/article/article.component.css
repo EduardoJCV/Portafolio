@@ -1,0 +1,50 @@
+.contenedor2{
+    padding-bottom: 10%;
+}
+
+.titulo-articulo{
+    text-align: center;
+    padding: 15%;
+    font-size: 3rem;
+}
+
+.articulo-img{
+    text-align: center;
+    margin-top: -10%;
+}
+
+.articulo-img>img{
+    width: 80%;
+}
+
+.content{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.content>p{
+    color:gainsboro;
+    width: 90%;
+    margin: 5%;
+}
+
+.tags{
+    margin:5%;
+    width: 90%;
+    text-align: center;
+}
+
+.tags>p{
+    display: inline-block;
+    border: 1px solid;
+    padding: 4px;
+    margin: 4px;
+    border-radius: 15px;
+    color:#00bfa5;
+}
+
+.tags>p>a{
+    color: #00bfa5;
+    padding:5px;
+    text-decoration: none;
+}

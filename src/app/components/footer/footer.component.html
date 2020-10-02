@@ -1,0 +1,25 @@
+<section class="contenedor1 services">
+    <img src="./../assets/social.svg" alt="">
+    <div class="box-contacts" id="social-list" *ngIf="contacts">
+        <h4 *ngFor="let contact of contacts" >
+            <a *ngIf="contact.url != ''" href="{{ contact.url }}" target="_blank">
+                <i class=" {{ contact.icon }} ">
+                </i> 
+                
+                {{ contact.name }}
+            </a>
+            <a *ngIf="contact.url == ''">
+                <i class=" {{ contact.icon }} ">
+                </i> 
+                
+                {{ contact.name }}
+            </a>
+        </h4>
+    </div>
+</section>
+
+<footer>
+    <div class="partFooter">
+        <p> CopyRight © 2020 | EduardoJCV</p>
+    </div>
+</footer>

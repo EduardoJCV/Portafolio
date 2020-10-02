@@ -1,0 +1,47 @@
+.form{
+
+    color:white;
+    margin-top: 10%;
+    width: 100%;
+    padding: 10%;
+
+}
+
+.form input{
+    color:white;
+    width: 100%;
+    padding:3%; 
+    background: #202940; 
+    border:none;
+}
+.form textarea{
+    color:white;
+    width: 100%;
+    padding:3%; 
+    background: #202940; 
+    border:none;
+    resize: none;
+}
+
+.form label p{
+    margin-top: 20px;
+}
+.form label span{
+    color:red;
+}
+
+.form .label-prim{
+    display:inline-block; 
+    width: 49%; 
+    padding: 2px;
+}
+
+.form button{
+    margin-top:20px;
+    width: 100%;
+    padding: 2%;
+    color: white;
+    background: #00bfa5;
+    border: none;
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.5);
+}

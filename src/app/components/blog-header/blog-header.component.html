@@ -1,0 +1,42 @@
+
+    <header>
+        <nav>
+            <section class="contenedor nav">
+                <div class="logo">
+                    <h1>Eduardo <small>JCV</small>  Blog</h1>
+                </div>
+                <div class="navig enlaces-header" >
+                    <ul>
+                        <li><a (click)="topActive()" routerLinkActive="active" [routerLink]="['/inicio']">Inicio</a></li>
+                        <li><a (click)="topActive()" routerLinkActive="active" [routerLink]="['/blog']">Blog</a></li>
+                        <li><a>Categorias <i class="down"></i></a>
+                        <!-- Primer Menu Desplegable -->
+                        <ul *ngIf="categories">
+                            <li *ngFor="let category of categories">
+                                <a (click)="topActive()" [routerLink]="['/blog/categoria', category.id]"> {{ category.name }} </a>
+                            </li>
+                        </ul>        
+                        </li>
+                        <li><a> Tags <i class="down"></i></a>
+                        <ul *ngIf="tags">
+                            <li *ngFor="let tag of tags">
+                                <a (click)="topActive()" [routerLink]="['/blog/tag', tag.id]"> {{ tag.name }} </a>
+                            </li>
+                        </ul>
+                        </li>
+                       
+                    </ul>
+                </div>
+                <div class="hamburguer" (click)="hamburguer()">
+                    <i style="border: none !important;" class="fas fa-bars"></i>
+                </div>
+            </section>
+            <div style="height: 150px; overflow: hidden;" >
+                <svg  viewBox="0 0 500 150" preserveAspectRatio="none" style="filter:drop-shadow(1px 1px 3px rgba(0, 0, 0, .2));height: 100%; width: 100%;">
+                    <path d="M0.00,49.98 C156.04,87.33 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #1a2035;">
+                    </path>
+                </svg>
+            </div>
+        </nav>
+        
+    </header>

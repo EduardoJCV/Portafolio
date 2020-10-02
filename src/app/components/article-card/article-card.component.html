@@ -1,0 +1,26 @@
+<div class="contenedor-article">
+    <div class="article" data-aos="zoom-in-right" *ngFor="let article of articles" (click)="goArticle(article.id)">
+        <p class="categoria" > {{ article.categories[0].name }} </p>
+        <div class="article-img">
+            <img [src]="article.img" alt="">
+        </div>
+        <div class="article-container">
+            <h3> {{ article.title }} </h3>
+            <hr>
+            <div class="rejilla">
+                <div>
+                    <p>
+                        {{ article.description }}
+                    </p>
+                </div>
+                <div class="bar-bar-content" style="text-align: center;">
+                    <p *ngFor="let tag of article.tags" class="skillName" > {{ tag.name }} </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="width: 100%; text-align: center;">
+    <a *ngIf="limit == 6" style="color: #5D6678; text-decoration-line: none;" [routerLink]="['/blog']">Ver todos</a>
+</div>

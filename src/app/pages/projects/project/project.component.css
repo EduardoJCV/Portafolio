@@ -1,0 +1,34 @@
+.textos-questions>a {
+    width: 256px !important;
+}
+
+.titulo-articulo{
+    text-align: center;
+    padding: 15%;
+    font-size: 3rem;
+}
+
+.alert-bg{
+    position: fixed;
+    z-index: 9999999999999999999999;
+    top: 0;
+    background: rgba(0,0,0,0.6);
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+}
+
+.alert-cnt{
+    width: 400px;
+    height: 100px;
+    background-color: #1a2035;
+    margin-top: 400px;
+    border-radius: 5%;
+    box-shadow: 1px 4px 5px rgba(0,0,0,0.4);
+    margin: auto;
+    text-align: center;
+}
+
+.alert-cnt>h1{
+    line-height: 100px;
+}

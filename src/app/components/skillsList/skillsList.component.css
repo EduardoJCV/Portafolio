@@ -1,0 +1,15 @@
+.rejilla {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.skillName{
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.skillIcon{
+  margin-bottom: 10px;
+}
+
+h4{
+  margin-top: 30px;
+}

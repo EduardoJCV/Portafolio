@@ -1,0 +1,28 @@
+
+    <header>
+        <nav>
+            <section class="contenedor nav">
+                <div class="logo">
+                    <h1>Eduardo <small>JCV</small></h1>
+                </div>
+                <div class="enlaces-header">
+                    <a (click)="topActive()" routerLinkActive="active" [routerLink]="['/home']">Inicio</a>
+                    <a (click)="topActive()" routerLinkActive="active" [routerLink]="['/habilidades']">Habilidades</a>
+                    <a (click)="topActive()" routerLinkActive="active" [routerLink]="['/sobremi']">Sobre Mi</a>
+                    <a (click)="topActive()" routerLinkActive="active" [routerLink]="['/proyectos']">Proyectos</a>
+                    <a (click)="topActive()" routerLinkActive="active" [routerLink]="['/contactar']">Contactar</a>
+                    <a (click)="topActive()" routerLinkActive="active" [routerLink]="['/blog']">Blog</a>
+                </div>
+                <div class="hamburguer" (click)="hamburguer()">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </section>
+            <div style="height: 150px; overflow: hidden;border: none;margin-top: -2px;" >
+                <svg  viewBox="0 0 500 150" preserveAspectRatio="none" style="filter:drop-shadow(1px 1px 3px rgba(0, 0, 0, .2));height: 100%; width: 100%;">
+                    <path d="M0.00,49.98 C156.04,87.33 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #1a2035;">
+                    </path>
+                </svg>
+            </div>
+        </nav>
+        
+    </header>

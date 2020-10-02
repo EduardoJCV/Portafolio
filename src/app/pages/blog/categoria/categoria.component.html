@@ -1,0 +1,44 @@
+<app-blog-header></app-blog-header>
+
+<section class="about-us" id="blog">
+    <div class="contenedor1" *ngIf="articles">
+
+        <h2><span>Categoria:</span> {{ articles.name }} </h2>
+
+        <div class="contenedor-article">
+            <div class="article" data-aos="zoom-in-right" *ngFor="let article of articles.list" (click)="goArticle(article.id)">
+                <p class="categoria" > {{ article.categories[0].name }} </p>
+                <div class="article-img">
+                    <img [src]="article.img" alt="">
+                </div>
+                <div class="article-container">
+                    <h3> {{ article.title }} </h3>
+                    <hr>
+                    <div class="rejilla">
+                        <div>
+                            <p>
+                                {{ article.description }}
+                            </p>
+                        </div>
+                        <div class="bar-bar-content" style="text-align: center;">
+                            <p *ngFor="let tag of article.tags" class="skillName" > {{ tag.name }} </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div *ngIf="notFound" class="contenedor1">
+        <h2 class="titulo-articulo"> Sin resultados </h2>
+    </div>
+
+    <div *ngIf="notFound404" class="contenedor1">
+        <h2 class="titulo-articulo"> Error 404 <br> Pagina no existente. </h2>
+    </div>
+
+    
+</section>
+
+<app-footer></app-footer>

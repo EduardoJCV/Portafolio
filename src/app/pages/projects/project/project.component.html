@@ -1,0 +1,28 @@
+<app-header></app-header>
+
+<section class="questions contenedor" id="proyecto" style="display: flex;height: 100%;padding-bottom: 5%;margin-bottom: 5%;" >
+    <section *ngIf="project != undefined" class="textos-questions" style="text-align: center;">
+        <h1  style="margin-top: 25%;"> {{ project.title }} </h1>
+        <p  id="sobre-mi-content"> {{ project.content }} </p>
+
+
+        <a style="cursor:pointer" *ngIf="project.github == 'false'" (click)="noDisponible(true)" target="_blank"><i class="fab fa-github"></i></a>
+        <a style="cursor:pointer" *ngIf="project.url == 'false'" (click)="noDisponible(true)" target="_blank"><i class="fas fa-link"></i></a>
+        <a style="cursor:pointer" *ngIf="project.github != 'false'" [href]="project.github" target="_blank"><i class="fab fa-github"></i></a>
+        <a style="cursor:pointer" *ngIf="project.url != 'false'" [href]="project.url" target="_blank"><i class="fas fa-link"></i></a>
+    </section>
+    <img *ngIf="project != undefined" id="proyecto-img" style="margin-top: 5%;" [src]="project.img" alt="" data-aos="zoom-out-up" data-aos-duration="2000">
+</section>
+
+<div class="contenedor2" *ngIf="notFound404">
+    <h2 class="titulo-articulo"> Error 404 <br> Pagina no encontrada. </h2>
+    <br>
+</div>
+
+<div *ngIf="noD" class="alert-bg" (click)="noDisponible(false)">
+    <div class="alert-cnt">
+       <h1>Enlace no disponible</h1>
+    </div>
+</div>
+
+<app-footer></app-footer>

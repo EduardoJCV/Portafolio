@@ -1,0 +1,11 @@
+<app-header></app-header>
+
+<section class="questions contenedor" id="sobre-mi" style="display: flex;" *ngIf="about">
+    <section class="textos-questions" >
+        <h1>Sobre Mi</h1>
+        <p id="sobre-mi-content"> {{ about.description }} </p>
+    </section>
+    <img id="sobre-mi-img" style="filter: grayscale(100%);" [src]="about.img" alt="">
+</section>
+
+<app-footer></app-footer>

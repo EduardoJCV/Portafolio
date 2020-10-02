@@ -1,0 +1,165 @@
+[
+  {
+    "name":"FrontEnd",
+    "icon":"fas fa-code",
+    "skillsL": [
+      {
+        "name":"HTML5",
+        "icon":"fab fa-html5",
+        "color":"#FE4C1E",
+        "level":"100"
+      },
+      {
+        "name":"CSS3",
+        "icon":"icon-css3",
+        "color":"#339AFF",
+        "level":"100"
+      },
+      {
+        "name":"Javascript",
+        "icon":"fab fa-js-square",
+        "color":"#F6DF1E",
+        "level":"100"
+      },
+      {
+        "name":"Bootstrap",
+        "icon":"icon-bootstrap",
+        "color":"#6B429E",
+        "level":"100"
+      },
+      {
+        "name":"Materialize CSS",
+        "icon":"icon-csswizardry",
+        "color":"#EB7077",
+        "level":"100"
+      },
+      {
+        "name":"Angular",
+        "icon":"icon-angular",
+        "color":"#DD0031",
+        "level":"100"
+      }
+    ]
+  },
+  {
+    "name":"Backend",
+    "icon":"fas fa-terminal",
+    "skillsL": [
+      {
+        "name":"PHP",
+        "icon":"fab fa-php",
+        "color":"#8893C1",
+        "level":"100"
+      },
+      {
+        "name":"Laravel",
+        "icon":"fab fa-laravel",
+        "color":"#FF2D20",
+        "level":"100"
+      },
+      {
+        "name":"NodeJS",
+        "icon":"fab fa-node-js",
+        "color":"#73C62B",
+        "level":"100"
+      },
+      {
+        "name":"Firebase",
+        "icon":"icon-firebase",
+        "color":"#FEC400",
+        "level":"100"
+      }
+    ]
+  },
+  {
+    "name":"Data Base",
+    "icon":"fas fa-database",
+    "skillsL": [
+      {
+        "name":"MySQL",
+        "icon":"icon-mysql",
+        "color":"#00618A",
+        "level":"100"
+      },
+      {
+        "name":"MongoDB",
+        "icon":"icon-mongodb",
+        "color":"#1F8A37",
+        "level":"100"
+      },
+      {
+        "name":"SQLite & IndexedDB",
+        "icon":"fas fa-database",
+        "color":"#FE4C1E",
+        "level":"100"
+      }
+    ]
+  },
+  {
+    "name":"Mobile & Desktop",
+    "icon":"fas fa-tablet-alt",
+    "skillsL": [
+      {
+        "name":"Ionic Cordova / Capacitor",
+        "icon":"icon-ionic",
+        "color":"#4A8BFF",
+        "level":"100"
+      },
+      {
+        "name":"Phonegap Cordova",
+        "icon":"icon-apachecordova",
+        "color":"#FFFFFF",
+        "level":"100"
+      },
+      {
+        "name":"ElectronJS (Angular / VanillaJS)",
+        "icon":"icon-electron",
+        "color":"#678E9D",
+        "level":"100"
+      },
+      {
+        "name":"Framework7 (Angular / VanillaJS)",
+        "icon":"icon-apachecordova",
+        "color":"#EE350F",
+        "level":"100"
+      }
+    ]
+  },
+  {
+    "name":"Otros",
+    "icon":"fas fa-user-check",
+    "skillsL": [
+      {
+        "name":"Git",
+        "icon":"icon-git",
+        "color":"#f05032",
+        "level":"100"
+      },
+      {
+        "name":"Github",
+        "icon":"icon-github",
+        "color":"",
+        "level":"100"
+      },
+      {
+        "name":"SEO",
+        "icon":"far fa-window-restore",
+        "color":"#FFFFFF",
+        "level":"100"
+      },
+      {
+        "name":"Ingles 40%",
+        "icon":"fas fa-language",
+        "color":"white",
+        "level":"100"
+      },
+      {
+        "name":"Typescript",
+        "icon":"icon-typescript",
+        "color":"#007acc",
+        "level":"100"
+      }
+    ]
+  }
+]
+

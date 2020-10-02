@@ -1,0 +1,24 @@
+<div class="contenedor-articulo">
+    <div class="articulo" data-aos="zoom-in-right" *ngFor="let skillSection of skillService.skillsList">
+        <i class="{{ skillSection.icon }}"></i>
+        <h3> {{ skillSection.name }} </h3>
+        <hr>
+        <br>
+        <div class="rejilla">
+            <div class="bar-bar-content" *ngFor="let skill of skillSection.skills"  style="text-align: center;">
+                <p class="skillName" style="color: {{ skill.color }}"> {{ skill.name }} </p>
+                <i class="skillIcon {{ skill.icon }}" style="color: {{ skill.color }}"></i>
+            </div>
+        </div>
+
+        <h4 *ngIf="skillSection.aprendiendo.length != 0"> Aprendiendo </h4>
+        <hr *ngIf="skillSection.aprendiendo.length != 0">
+        <br *ngIf="skillSection.aprendiendo.length != 0">
+        <div *ngIf="skillSection.aprendiendo.length != 0" class="rejilla">
+            <div class="bar-bar-content" *ngFor="let skill of skillSection.aprendiendo"  style="text-align: center;">
+                <p class="skillName" style="color: {{ skill.color }}"> {{ skill.name }} </p>
+                <i class="skillIcon {{ skill.icon }}" style="color: {{ skill.color }}"></i>
+            </div>
+        </div>
+    </div>
+</div>
