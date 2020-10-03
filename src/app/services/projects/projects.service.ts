@@ -8,7 +8,7 @@ import { HttpClient } from '@angular/common/http';
 export class ProjectsService {
 
 
-  url = "http://damp-harbor-08844.herokuapp.com/api/project";
+  url = "https://damp-harbor-08844.herokuapp.com/api/project";
 
   constructor( public http: HttpClient ) {
   }

@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AboutService {
 
-  url = 'http://damp-harbor-08844.herokuapp.com/api/about';
+  url = 'https://damp-harbor-08844.herokuapp.com/api/about';
 
   constructor( public http: HttpClient ) {
   }

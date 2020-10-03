@@ -10,7 +10,7 @@ import { SkillSectionModel, SkillModel } from '../../models/skill.model';
 export class SkillsService {
 
 
-  url = 'http://damp-harbor-08844.herokuapp.com/api/skillslist';
+  url = 'https://damp-harbor-08844.herokuapp.com/api/skillslist';
 
   skillsList:SkillSectionModel[];
 
