@@ -1,0 +1,218 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?agui90');
+  src:  url('fonts/icomoon.eot?agui90#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?agui90') format('truetype'),
+    url('fonts/icomoon.woff?agui90') format('woff'),
+    url('fonts/icomoon.svg?agui90#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 2rem;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-americanexpress:before {
+  content: "\e92e";
+  color: #2e77bc;
+}
+.icon-android:before {
+  content: "\e92f";
+  color: #3ddc84;
+}
+.icon-angular:before {
+  content: "\e900";
+  color: #dd0031;
+}
+.icon-apachecordova:before {
+  content: "\e901";
+  color: #e8e8e8;
+}
+.icon-bootstrap:before {
+  content: "\e902";
+  color: #563d7c;
+}
+.icon-buffer:before {
+  content: "\e903";
+  color: #168eea;
+}
+.icon-cakephp:before {
+  content: "\e904";
+  color: #d33c43;
+}
+.icon-codeigniter:before {
+  content: "\e905";
+  color: #ee4623;
+}
+.icon-css3:before {
+  content: "\e906";
+  color: #1572b6;
+}
+.icon-csswizardry:before {
+  content: "\e907";
+  color: #f43059;
+}
+.icon-deno:before {
+  content: "\e908";
+}
+.icon-electron:before {
+  content: "\e909";
+  color: #47848f;
+}
+.icon-firebase:before {
+  content: "\e90a";
+  color: #ffca28;
+}
+.icon-ghost:before {
+  content: "\e90b";
+  color: #738a94;
+}
+.icon-git:before {
+  content: "\e90c";
+  color: #f05032;
+}
+.icon-gitea:before {
+  content: "\e90d";
+  color: #609926;
+}
+.icon-github:before {
+  content: "\e90e";
+}
+.icon-gitlab:before {
+  content: "\e90f";
+  color: #fca121;
+}
+.icon-go:before {
+  content: "\e910";
+  color: #00add8;
+}
+.icon-googleplay:before {
+  content: "\e911";
+  color: #607d8b;
+}
+.icon-graphql:before {
+  content: "\e912";
+  color: #e10098;
+}
+.icon-html5:before {
+  content: "\e913";
+  color: #e34f26;
+}
+.icon-ionic:before {
+  content: "\e914";
+  color: #3880ff;
+}
+.icon-ipfs:before {
+  content: "\e915";
+  color: #65c2cb;
+}
+.icon-javascript:before {
+  content: "\e916";
+  color: #f7df1e;
+}
+.icon-jquery:before {
+  content: "\e917";
+  color: #0769ad;
+}
+.icon-laravel:before {
+  content: "\e918";
+  color: #ff2d20;
+}
+.icon-linkedin:before {
+  content: "\e919";
+  color: #0077b5;
+}
+.icon-mongodb:before {
+  content: "\e91a";
+  color: #47a248;
+}
+.icon-mysql:before {
+  content: "\e91b";
+  color: #4479a1;
+}
+.icon-nintendogamecube:before {
+  content: "\e91c";
+  color: #6a5fbb;
+}
+.icon-node-dot-js:before {
+  content: "\e91d";
+  color: #393;
+}
+.icon-paypal:before {
+  content: "\e91e";
+  color: #00457c;
+}
+.icon-php:before {
+  content: "\e91f";
+  color: #777bb4;
+}
+.icon-postgresql:before {
+  content: "\e920";
+  color: #336791;
+}
+.icon-react:before {
+  content: "\e921";
+  color: #61dafb;
+}
+.icon-redux:before {
+  content: "\e922";
+  color: #764abc;
+}
+.icon-sass:before {
+  content: "\e923";
+  color: #c69;
+}
+.icon-slack:before {
+  content: "\e924";
+  color: #4a154b;
+}
+.icon-stackoverflow:before {
+  content: "\e925";
+  color: #fe7a16;
+}
+.icon-svelte:before {
+  content: "\e926";
+  color: #ff3e00;
+}
+.icon-trello:before {
+  content: "\e927";
+  color: #0079bf;
+}
+.icon-typescript:before {
+  content: "\e928";
+  color: #007acc;
+}
+.icon-udemy:before {
+  content: "\e929";
+  color: #ec5252;
+}
+.icon-visualstudiocode:before {
+  content: "\e92a";
+  color: #007acc;
+}
+.icon-vue-dot-js:before {
+  content: "\e92b";
+  color: #4fc08d;
+}
+.icon-webpack:before {
+  content: "\e92c";
+  color: #8dd6f9;
+}
+.icon-zendframework:before {
+  content: "\e92d";
+  color: #68b604;
+}
